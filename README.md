@@ -22,7 +22,7 @@
   * Docker and docker-compose 
     * [Link to install docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
     * [Link to install docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
-  * git []
+  * git [Link to install](https://git-scm.com/downloads)
 
 * Steps to run the application with docker
   * `git clone https://github.com/udkumar/microservice-test.git`
