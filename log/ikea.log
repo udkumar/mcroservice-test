@@ -1,0 +1,315 @@
+2022-01-01 03:15:02,354 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:15:46,627 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:15:46,628 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:18:30,821 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:18:30,822 - ikea_app - ERROR - FileService:frequent_words::error:'str' object has no attribute 'read'
+2022-01-01 03:18:30,822 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:18:51,035 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:18:51,036 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:21:42,334 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:21:42,335 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:23:43,287 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:23:43,288 - ikea_app - ERROR - FileService:frequent_words::error:sequence item 0: expected str instance, bytes found
+2022-01-01 03:23:43,290 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 500), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:25:51,701 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:25:51,702 - ikea_app - ERROR - FileService:frequent_words::error:name 'data_set' is not defined
+2022-01-01 03:25:51,703 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:26:16,599 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:26:16,600 - ikea_app - ERROR - FileService:frequent_words::error:'list' object has no attribute 'split'
+2022-01-01 03:26:16,601 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:27:00,093 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:27:00,094 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:27:44,557 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>}
+2022-01-01 03:28:48,937 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'ADS.txt' ('text/plain')>, 'freq': 6}
+2022-01-01 03:28:48,938 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:29:45,213 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 6}
+2022-01-01 03:29:45,214 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:42:22,423 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern pattern
+2022-01-01 03:42:22,425 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/pattern'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:43:53,802 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern pattern
+2022-01-01 03:43:53,804 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/pattern'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:44:30,389 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern pattern
+2022-01-01 03:44:30,391 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/pattern'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:48:50,626 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern (.*pdf$)|(.*rar$)|(.*r01$)
+2022-01-01 03:48:50,627 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/(.*pdf$)|(.*rar$)|(.*r01$)'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 03:49:33,858 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1'), ('status', 404), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 17:51:53,591 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 6}
+2022-01-01 17:51:53,592 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:24:02,257 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern test
+2022-01-01 20:24:34,380 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern test
+2022-01-01 20:24:34,382 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/test'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:25:59,907 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern test
+2022-01-01 20:25:59,910 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/test'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:29:16,998 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern test
+2022-01-01 20:29:17,001 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/test'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:30:25,617 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern test
+2022-01-01 20:30:25,619 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/test'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:31:17,874 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1//.js*'), ('status', 308), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:31:17,882 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern .js*
+2022-01-01 20:31:17,883 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/.js*'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:31:23,896 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1//.js$'), ('status', 308), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:31:23,904 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern .js$
+2022-01-01 20:31:23,905 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/.js$'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:34:40,966 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1//.js$'), ('status', 308), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:34:40,983 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern .js$
+2022-01-01 20:34:40,985 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/.js$'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:54:45,858 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1//.js$'), ('status', 308), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:54:45,863 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern .js$
+2022-01-01 20:54:45,863 - ikea_app - INFO - FileService:list_files:: pattern: .js$
+2022-01-01 20:54:45,864 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/.js$'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:54:54,135 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern 11
+2022-01-01 20:54:54,137 - ikea_app - INFO - FileService:list_files:: pattern: 11
+2022-01-01 20:54:54,138 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/11'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:55:13,303 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern 11
+2022-01-01 20:55:13,303 - ikea_app - INFO - FileService:list_files:: pattern: 11
+2022-01-01 20:55:13,305 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/11'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:56:43,802 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern 11
+2022-01-01 20:56:43,802 - ikea_app - INFO - FileService:list_files:: pattern: 11
+2022-01-01 20:56:43,804 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/11'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:57:14,448 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern 11
+2022-01-01 20:57:14,448 - ikea_app - INFO - FileService:list_files:: pattern: 11
+2022-01-01 20:57:14,450 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/11'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 20:59:56,480 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern 11
+2022-01-01 20:59:56,481 - ikea_app - INFO - FileService:list_files:: pattern: 11
+2022-01-01 20:59:56,482 - ikea_app - ERROR - Vendor::VendorBusinessPortfolio::post:: local variable 'flag' referenced before assignment
+2022-01-01 20:59:56,482 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/11'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:00:18,427 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern 11
+2022-01-01 21:00:18,428 - ikea_app - INFO - FileService:list_files:: pattern: 11
+2022-01-01 21:00:18,430 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/11'), ('status', 400), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:00:31,689 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1//.js*'), ('status', 308), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:00:31,694 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern .js*
+2022-01-01 21:00:31,695 - ikea_app - INFO - FileService:list_files:: pattern: .js*
+2022-01-01 21:00:31,696 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/.js*'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:00:43,000 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern 22
+2022-01-01 21:00:43,001 - ikea_app - INFO - FileService:list_files:: pattern: 22
+2022-01-01 21:00:43,006 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/22'), ('status', 400), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:14:22,846 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:14:22,867 - ikea_app - ERROR - FileService:frequent_words::error:cannot use a string pattern on a bytes-like object
+2022-01-01 21:14:22,868 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 500), ('duration', 0.02), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:15:33,748 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:15:33,749 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:15:55,048 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 10}
+2022-01-01 21:15:55,049 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:21:31,700 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 10}
+2022-01-01 21:21:31,701 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:21:43,137 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 10}
+2022-01-01 21:21:43,138 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:22:24,372 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:22:24,373 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:22:40,206 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:22:40,208 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.02), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:49:50,767 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:49:50,768 - ikea_app - ERROR - FileService:frequent_words::error:'list' object has no attribute 'decode'
+2022-01-01 21:49:50,771 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 500), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:50:08,008 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:50:08,009 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:54:05,903 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 400), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:54:12,614 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:54:12,616 - ikea_app - ERROR - FileService:frequent_words::error:name 'v' is not defined
+2022-01-01 21:54:12,622 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 500), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:54:28,018 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:54:28,019 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:56:02,395 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:56:02,396 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:56:30,525 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:56:30,527 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:58:11,947 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:58:11,947 - ikea_app - ERROR - FileService:frequent_words::error:cannot use a string pattern on a bytes-like object
+2022-01-01 21:58:11,949 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 21:58:36,489 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 21:58:36,493 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:00:35,674 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:00:35,676 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:02:04,595 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:02:04,597 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:03:05,321 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:03:05,325 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:03:45,412 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:03:45,415 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:05:09,321 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:05:09,323 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:08:00,482 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:08:00,484 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:14:08,301 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:14:08,302 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:17:01,793 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:17:01,795 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:19:55,703 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:19:55,704 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:20:09,072 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8}
+2022-01-01 22:20:09,077 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:21:54,433 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': None}
+2022-01-01 22:21:54,435 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:22:01,410 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': None, 'camelCase': None}
+2022-01-01 22:22:01,412 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:23:20,915 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 10, 'camelCase': None}
+2022-01-01 22:23:20,915 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:23:32,118 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': None}
+2022-01-01 22:23:32,119 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:23:47,540 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '0'}
+2022-01-01 22:23:47,541 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:23:51,499 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '1'}
+2022-01-01 22:23:51,501 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:26:35,536 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '1'}
+2022-01-01 22:26:35,539 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:26:45,657 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '0'}
+2022-01-01 22:26:45,659 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:26:54,824 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': None}
+2022-01-01 22:26:54,830 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:27:46,678 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': None}
+2022-01-01 22:27:46,679 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:27:58,989 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '0'}
+2022-01-01 22:27:58,990 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:28:03,073 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '1'}
+2022-01-01 22:28:03,073 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:28:25,930 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '1'}
+2022-01-01 22:28:25,931 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:28:31,289 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '0'}
+2022-01-01 22:28:31,291 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:28:48,920 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '0'}
+2022-01-01 22:28:48,922 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:28:53,735 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '1'}
+2022-01-01 22:28:53,737 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:28:56,049 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '1'}
+2022-01-01 22:28:56,050 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:29:56,670 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '1'}
+2022-01-01 22:29:56,671 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:30:00,241 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '0'}
+2022-01-01 22:30:00,254 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.02), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:31:11,133 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:31:11,135 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:31:19,154 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:31:19,155 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:31:23,162 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:31:23,164 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:31:26,315 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:31:26,317 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:32:36,786 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:32:36,789 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:33:13,120 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:33:13,123 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:34:04,297 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:34:04,299 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:34:10,523 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:34:10,525 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:34:18,227 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:34:18,228 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:34:36,653 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:34:36,655 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:34:59,177 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 400), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:35:17,578 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:35:17,585 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:37:45,907 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': None}
+2022-01-01 22:37:45,909 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:37:54,585 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:37:54,588 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:39:06,760 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:39:06,762 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:39:12,089 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': None}
+2022-01-01 22:39:12,090 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:39:21,905 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:39:21,909 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:39:29,347 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': True}
+2022-01-01 22:39:29,348 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:40:48,022 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': '0'}
+2022-01-01 22:40:48,024 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:41:13,605 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': 0}
+2022-01-01 22:41:13,607 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:41:19,501 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': 1}
+2022-01-01 22:41:19,503 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:41:23,410 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': 0}
+2022-01-01 22:41:23,411 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:41:26,131 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': None}
+2022-01-01 22:41:26,132 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:41:43,632 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': None}
+2022-01-01 22:41:43,635 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:41:57,669 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': 0}
+2022-01-01 22:41:57,670 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-01 22:42:09,493 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': 1}
+2022-01-01 22:42:09,495 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:33:32,795 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:34:42,659 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:34:57,370 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:36:00,502 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:37:01,588 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:37:01,589 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:37:37,610 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:37:37,611 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:37:59,921 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:37:59,923 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:39:37,358 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:39:37,360 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:40:20,891 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:40:20,894 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:50:02,109 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:50:02,111 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:50:46,793 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:50:46,794 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:56:33,480 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:56:33,481 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:56:57,181 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 00:56:57,190 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 00:58:48,897 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:08:08,073 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:08:08,093 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.02), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:09:55,689 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:09:55,690 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:11:14,544 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:11:14,545 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:16:48,657 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:16:48,659 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:19:55,751 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:19:55,753 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:21:30,314 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:21:30,318 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:23:19,463 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:23:19,466 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:23:50,616 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:23:50,621 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:23:58,683 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:23:58,685 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:26:05,219 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:26:05,223 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:27:31,109 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:27:31,113 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:27:56,341 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:27:56,343 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:29:28,335 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:29:28,336 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:30:27,492 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:30:27,496 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:32:05,198 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:32:05,200 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:33:57,390 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:33:57,395 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:35:02,822 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:35:02,824 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:42:22,954 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:42:22,956 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:43:05,786 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:43:05,790 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:47:11,720 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:47:43,949 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:47:43,951 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:49:36,069 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:49:36,072 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:52:43,478 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:52:43,481 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:53:20,713 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:53:20,715 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 01:53:55,466 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 01:53:55,467 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 21:49:14,079 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1//.js*'), ('status', 308), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 21:49:14,179 - ikea_app - INFO - IKEA::FilesFromDirectory::get:: pattern .js*
+2022-01-02 21:49:14,180 - ikea_app - INFO - FileService:list_files:: pattern: .js*
+2022-01-02 21:49:14,184 - ikea_app - INFO - [('method', 'GET'), ('path', '/api/v1/.js*'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 21:50:37,669 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 21:50:37,671 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 21:50:53,887 - ikea_app - INFO - IKEA::LongestWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>}
+2022-01-02 21:50:53,887 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/longest_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 21:51:49,921 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': 1}
+2022-01-02 21:51:49,922 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 21:52:00,076 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': 0}
+2022-01-02 21:52:00,077 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-02 21:55:55,102 - ikea_app - INFO - IKEA::FrequentWords::post:: {'file': <FileStorage: 'Daily_task.txt' ('text/plain')>, 'freq': 8, 'camelCase': 0}
+2022-01-02 21:55:55,104 - ikea_app - INFO - [('method', 'POST'), ('path', '/api/v1/frequent_words'), ('status', 200), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]

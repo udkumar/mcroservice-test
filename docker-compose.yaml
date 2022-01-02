@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  ikea-app:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8012:8000"
+    command: gunicorn -w 1 -b 0.0.0.0:8000 app
+    networks:
+      - my-network
+
+  ikea-web:
+    build:
+     context: ./nginx
+     dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "9011:80"
+    depends_on:
+      - ikea-app
+    healthcheck:
+     timeout: 45s
+     interval: 10s
+     retries: 10
+    networks:
+      - my-network
+
+networks:
+ my-network:              
