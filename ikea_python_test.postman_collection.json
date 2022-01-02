@@ -1,0 +1,88 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ikea_python",
+		"_postman_id": "522ddc5d-35ad-c789-49a6-41326f92bf15",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/v1/\\.js*",
+			"request": {
+				"url": "http://localhost:5000/api/v1/\\.js*",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/longest_words",
+			"request": {
+				"url": "http://localhost:5000/api/v1/longest_words",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"description": "",
+							"type": "file"
+						},
+						{
+							"key": "freq",
+							"value": "10",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "camelCase",
+							"value": "0",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/v1/frequent_words",
+			"request": {
+				"url": "localhost:5000/api/v1/frequent_words",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"description": "",
+							"type": "file"
+						},
+						{
+							"key": "freq",
+							"value": "8",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "camelCase",
+							"value": "0",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
