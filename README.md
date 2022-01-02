@@ -31,7 +31,7 @@
 ### APIs endpoint to test the app
 
 * Base URL: `http://localhost:9011`
-  * Endpoint: `/api/v1/\.js*`
+  * Endpoint 1: `/api/v1/\.js*`
   * Method: `GET`
   * Response:
     ```code
@@ -46,3 +46,89 @@
       "status": 1
       }
         ```
+  * Endpoint 2: `/api/v1/frequent_words`
+  * Method: `POST`
+  * Payload: `form-data`
+    * file (select .txt file)
+    * freq (Type: Integer [ How many frequent words user want to list] )
+    * camelCase (Type: Integer [As python is casensative language to file's word which we need as provided or need small case only])
+  * Response:
+    ```code
+        {
+          "data": [
+                    {
+                        "devasthanam": 1,
+                        "in": 2,
+                        "the": 4,
+                        "tirumala": 2,
+                        "tirupati": 1,
+                        "ttd": 6,
+                        "venkateswara": 3,
+                        "venkateswari": 2
+                    },
+                    {
+                        "boy": 1,
+                        "is": 2,
+                        "this": 1,
+                        "who": 1,
+                        "working": 1
+                    },
+                    {
+                        "after": 1,
+                        "and": 3,
+                        "baron": 1,
+                        "mlc": 1,
+                        "party": 2,
+                        "perfume": 1,
+                        "samajwadi": 1,
+                        "the": 3
+                    },
+                    {
+                        "and": 1,
+                        "ec": 1,
+                        "of": 1,
+                        "president": 1,
+                        "the": 3,
+                        "to": 2,
+                        "will": 1,
+                        "write": 1
+                    }
+                  ],
+            "err": "",
+            "message": "8 Most frequent words",
+            "status": 1
+        }
+      ```
+
+  * Endpoint 2: `/api/v1/longest_words`
+  * Method: `POST`
+  * Payload: `form-data`
+    * file (select .txt file)
+  * Response:
+    ```code
+      {
+        "data": [
+            {
+                "line 1": [
+                    "Venkateswara",
+                    "Venkateswari"
+                ],
+                "line 2": [
+                    "This",
+                    "Working"
+                ],
+                "line 3": [
+                    "Opposition",
+                    "Commission"
+                ],
+                "line 4": [
+                    "President",
+                    "Samajwadi"
+                ]
+            }
+        ],
+        "err": "",
+        "message": "Longest two words !!",
+        "status": 1
+      }
+    ```
