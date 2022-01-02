@@ -4,8 +4,8 @@
 
 * Three endpoint (routes)
 * Added controller and services
-* Written unit test for service methods
-* Dockerized the complate application with `Gunicorn`, `Nginx`, `docker-compose`
+* Written unittest for services methods
+* Dockerized the complate application with `Flask`, `Gunicorn`, `Nginx`, `docker-compose`
 * Tested with production environment
 
 ### What I can add more for production environment to make more scalable
@@ -17,16 +17,25 @@
 ### How to setup this application with docker
 
 * Prerequisite:
-  * python 3.8
+  * Ubuntu 20.04.3 LTS
+  * python 3.8 or +
   * Docker and docker-compose 
     * [Link to install docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
     * [Link to install docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
   * git
 
-* Steps for run the application
+* Steps to run the application with docker
   * `git clone https://github.com/udkumar/microservice-test.git`
   * `cd microservice-test`
   * `chmod u+x run_docker.sh`
+
+* Steps to run the application without docker
+  * `git clone https://github.com/udkumar/microservice-test.git`
+  * `cd microservice-test`
+  * `python3 -m venv env_ikea`
+  * `source env_ikea/bin/activate`
+  * `pip install -r requirements.txt`
+  * `gunicorn app`
 
 ### APIs endpoint to test the app
 
@@ -45,7 +54,8 @@
       "message": "File listed successfully !",
       "status": 1
       }
-        ```
+    ```
+    
   * Endpoint 2: `/api/v1/frequent_words`
   * Method: `POST`
   * Payload: `form-data`
