@@ -37,7 +37,7 @@
   * `pip install -r requirements.txt`
   * `gunicorn app` (If any error showing, just run `python app.py`)
 
-### APIs endpoint to test the app
+### APIs endpoint to test the app :- [Postman collection for testing APIs](https://github.com/udkumar/microservice-test/blob/master/ikea_python_test.postman_collection.json)
 
 * Base URL: `http://localhost:9011`
   * Endpoint 1: `/api/v1/\.js*`
