@@ -22,7 +22,7 @@
   * Docker and docker-compose 
     * [Link to install docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
     * [Link to install docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
-  * git
+  * git []
 
 * Steps to run the application with docker
   * `git clone https://github.com/udkumar/microservice-test.git`
@@ -32,10 +32,10 @@
 * Steps to run the application without docker
   * `git clone https://github.com/udkumar/microservice-test.git`
   * `cd microservice-test`
-  * `python3 -m venv env_ikea`
-  * `source env_ikea/bin/activate`
+  * `python3 -m venv env_ikea` (May be for you only `python -m venv env_ikea`)
+  * `source env_ikea/bin/activate` (For Windows user `./env_ikea/Scripts/activate`)
   * `pip install -r requirements.txt`
-  * `gunicorn app`
+  * `gunicorn app` (If any error showing, just run `python app.py`)
 
 ### APIs endpoint to test the app
 
@@ -55,7 +55,7 @@
       "status": 1
       }
     ```
-    
+
   * Endpoint 2: `/api/v1/frequent_words`
   * Method: `POST`
   * Payload: `form-data`
@@ -142,3 +142,5 @@
         "status": 1
       }
     ```
+
+Author: [Uday Kumar](udayonrails@gmail.com)
