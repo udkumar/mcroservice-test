@@ -40,6 +40,7 @@
 ### APIs endpoint to test the app :- [Postman collection for testing APIs](https://github.com/udkumar/microservice-test/blob/master/ikea_python_test.postman_collection.json)
 
 * Base URL: `http://localhost:9011`
+* 
   * Endpoint 1: `/api/v1/\.js*`
   * Method: `GET`
   * Response:
@@ -110,7 +111,7 @@
         }
       ```
 
-  * Endpoint 2: `/api/v1/longest_words`
+  * Endpoint 3: `/api/v1/longest_words`
   * Method: `POST`
   * Payload: `form-data`
     * file (select .txt file)
